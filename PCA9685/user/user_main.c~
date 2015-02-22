@@ -1,0 +1,22 @@
+
+#include "mem.h"
+#include "c_types.h"
+#include "user_interface.h"
+#include "ets_sys.h"
+#include "osapi.h"
+#include "espconn.h"
+
+
+
+
+void user_init()
+{
+	/*i2c_init();
+	i2c_start();
+	i2c_writeByte(0xff);*/
+	PCAinit();
+	PCAbegin();
+	//i2c_master_gpio_init();
+	//i2c_master_init();
+
+}
